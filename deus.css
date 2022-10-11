@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./pexels-designecologist-1779487.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/*navigation bar starts*/
+.navbar{
+    height: 50px;
+    width: 100%;
+    background:white;
+    display: flex;
+    justify-content: space-around;
+}
+.lnav{
+    background: #E28413;
+    flex-basis: 5%;
+}
+.lst{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lst li{
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+    padding-left: 100px;
+}
+.lists{
+    background-color: #000022;
+    flex-basis:90% ;
+    justify-content: center;
+}
+.rnav{
+    background:#E28413;
+    flex-basis: 5%;
+}
+/*navigation bar ends*/
+/*topics div starts*/
+.topics{
+    height: 100px;
+    margin-left: 10px;
+    width: 400px;
+    background-color: aliceblue;
+    border-left-style:solid;
+    border-right-style:solid;
+    border-left-width: 10px;
+    border-left-color:  #000022;
+    border-right-width: 10px;
+    border-right-color:  #000022;
+    /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
+}
+.topics ul{
+    margin-left: 0;
+    padding: 0;
+}
+.topics ul li{
+    list-style-type: none;
+    cursor: pointer;
+    /* background-color:#007500 ; */
+    color: white;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#li1{
+   background-color: #6C0BA9;
+    width: 100%;
+
+}
+#li2{
+    background-color: #6C0BA9;
+}
+#li3{
+    background-color: #880ED4;
+}
+#li4{
+    background-color: #B24BF3;
+}
+#li5{
+    background-color: rgba(215, 161, 249,0.4);
+      border-left-width: 20px;
+    height: 23.6px;
+    color: black;
+}.topics ul li:hover{
+    background-color: #000000;
+}
+
+

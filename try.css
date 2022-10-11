@@ -1,0 +1,15 @@
+.try{
+    border-top-width: 50px;
+    border-top-color:black;
+    border-top-style:solid;
+    border-bottom-style:solid ;
+    border-bottom-color:black ;
+    border-bottom-width:10px ;
+    border-left-style:solid ;
+    border-left-color:black ;
+    border-left-width:10px ;
+    border-right-style:solid ;
+    border-right-color:black ;
+    border-right-width:10px ;
+    border-radius: 10px;
+}
